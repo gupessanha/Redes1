@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-09-18T18:29:11.037Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.5" etag="VeGVzWJLd-tolP-1v45C" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-18T18:42:30.637Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="miwFInpXNzk4TcNGMn1F" version="21.7.5" type="github">
   <diagram name="Página-1" id="Ju5DVqYeM0pNcwRv2ZeW">
-    <mxGraphModel>
+    <mxGraphModel dx="882" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-1" target="DeDNY9ZSxQYFLQZ6pZuF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-1" value="Criar um socket com porta específica" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-2" target="DeDNY9ZSxQYFLQZ6pZuF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-2" target="DeDNY9ZSxQYFLQZ6pZuF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-2" value="Espera pelo pedido de coonexão, gerar o socket de conexão(s.c.)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-3" target="DeDNY9ZSxQYFLQZ6pZuF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-3" value="Ler a requisição do socket de conexão" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-4" target="DeDNY9ZSxQYFLQZ6pZuF-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="730" />
+              <mxPoint x="300" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-4" value="Escrever resposta no s.c." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-5" value="Fechar conexão" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-6" target="DeDNY9ZSxQYFLQZ6pZuF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-6" target="DeDNY9ZSxQYFLQZ6pZuF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-6" value="Criar socket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-7" target="DeDNY9ZSxQYFLQZ6pZuF-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-7" target="DeDNY9ZSxQYFLQZ6pZuF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-7" value="Mandar requisição usando o socket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DeDNY9ZSxQYFLQZ6pZuF-8" target="DeDNY9ZSxQYFLQZ6pZuF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-8" value="Ler resposta do socket do cliente" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-9" value="Fechar o socket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-10" value="&lt;h1&gt;SERVIDOR&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="160" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-11" value="&lt;h1&gt;CLIENTE&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="160" width="156" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-22" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="730" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="730" />
+              <mxPoint x="160" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DeDNY9ZSxQYFLQZ6pZuF-24" value="&lt;h1&gt;Fluxo TCP&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="50" width="156" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
